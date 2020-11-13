@@ -1,18 +1,22 @@
 # openSMILE
+This folder contains all scripts related to openSMILE and ComParE feature set extraction.
 
 ## Requirements
 - python 3.5+
 - OpenSMILE
 
-## automate.sh
+## Automation scipt : automate.sh
 
 This script takes all the audio files (.wav) present in the dataset and extracts :
 - frame wise LLDs and stores them in {name_of_input}LLD.csv
 - values of functionals applied over LLDs and stores them in {name_of_input}.csv
+- The output of this script can be found in openSMILE-outputs
 
-## auto_combine.sh
+## Combined Output Script : auto_combine.sh
 
-This script takes all audio files and extracts the values of functionals applied over LLDs. It is combined and stored in one csv file.
+- This script takes all audio files and extracts the values of functionals applied over LLDs. 
+- It is combined and stored in one csv file.
+- The output of this script can be found in openSMILE-outputs
 
 ## ComParE_2016.conf
 
